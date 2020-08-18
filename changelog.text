@@ -1,0 +1,12 @@
+18/08/2020
+----------
+1. Post model is added by using 'json_serializable' and 'build_runner' packages.
+Q: How to use 'json_serializable' and 'build_runner' packages?
+A: Steps
+        1. add 'json_serializable' under 'dependencies' in pubspec.yaml file
+        2. add 'build_runner' under 'dev_dependencies' in pubspec.yaml file
+        3. run 'flutter pub get'
+        4. create a model 'post.dart'(give annotation with '@JsonSerializable()')
+        5. run 'flutter packages pub run build_runner build --delete-conflicting-outputs'
+        6. done.
+====================================================================================================
