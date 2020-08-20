@@ -27,6 +27,9 @@ dependencies:
   # To generate to/from JSON code for a class, annotate it with @JsonSerializable.
   json_serializable: ^3.4.0
 
+  # A composable, Future-based library for making HTTP requests.
+  http: ^0.12.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
